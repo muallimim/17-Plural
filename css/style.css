@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(/images/bg_plural.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.plural1, .plural2, .plural3{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+#word, #word2, #word3{
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    font-size: 34px;
+    background-color: bisque;
+
+}
+
+#result, #result2, #result3{
+    border-radius: 0 20px 20px 0;
+    text-align: center;
+    font-size: 34px;
+    background-color: rgb(143, 89, 24);
+    color: yellow;
+}
+
+#word_s2{
+    height: 100%;
+}
+
+input[type='submit']{
+    background-color: chocolate;
+    color: aqua;
+    border: 1px solid chocolate;
+}
+
+input[type='submit']:hover{
+    border: 1px solid white;
+}
